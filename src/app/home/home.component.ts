@@ -29,7 +29,7 @@ export class HomeComponent implements OnInit {
 
  changeTitle()
  {
-    document.querySelector('#title')!.innerHTML = 'Touched the DOM!';
+    this.title = 'Title Changed'
  }
 
 
